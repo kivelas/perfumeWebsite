@@ -1,0 +1,278 @@
+body{
+    font-family: monospace;
+    margin: 20px;
+}
+
+h1{
+    font-size: 100px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+    background-image: url(header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin: auto;
+    text-align: center;
+    padding: 50px 10px 20px 10px;
+    font-size: 40px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.tab {
+    float: left;
+    border: 2px solid rgba(174, 16, 189, 0.5);
+    background-color: rgba(174, 16, 189, 0.1);
+    width: 25%;
+    height: auto;
+    min-height: 444px;;
+    margin-left: 50px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: monospace;
+    font-weight: bold;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: rgba(174, 16, 189, 0.3);
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: rgba(174, 16, 189, 0.5);
+    color: white;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px;
+    width: 60%;
+    border-left: none;
+    height: auto;
+    min-height: 444px;
+    font-size: 16px;
+    margin: 0px 0px 50px 50px;
+  }
+
+  .video{
+      clear: both;
+      font-size: 17px;
+      padding: 50px;
+      border-top: 2px dotted rgba(174, 16, 189, 0.5);
+  }
+
+  .welcome{
+    font-size: 17px;
+  }
+
+  #welcomephoto{
+    border-radius: 100%;
+    width: 200px;
+  }
+  
+  .welcomephotocontainer{
+    width: 20%;
+    padding: 50px;
+  }
+
+  #welcometext{
+    padding-left: 60px;
+  }
+
+  #welcomecontainer{
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    padding: 50px;
+    border-bottom: 2px dotted rgba(174, 16, 189, 0.5);
+  }
+
+  iframe{
+      padding-top: 20px;
+    
+  }
+
+  footer {
+    clear: both;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(231, 67, 157, 0.6);
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer{
+      margin: auto;
+  }
+
+  div.phototext{
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  div.gallery{
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    
+}
+
+div.gallery img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.desc{
+    padding: 15px;
+    padding-top: 0px;
+    text-align: center;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    width: 50%;
+    display: block;
+    margin: 40px auto;
+}
+
+#fname, #email{
+    width: 300px;
+}
+
+#submit, #reset{
+    color: white;
+    background-color: rgba(231, 67, 157, 0.8);
+    font-size: 17px;
+    font-family: monospace;
+    width: 120px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+#submit:hover, #reset:hover{
+    background-color: rgba(231, 67, 157, 1);
+}
+
+#contacttext{
+    font-size: 15px;
+}
+
+.navup {
+    overflow: hidden;
+    background-color: rgb(247, 184, 218);
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .navup a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navup a:hover {
+    background-color: rgba(231, 67, 157, 0.5);
+    color: black;
+  }
+  
+  .navup a.active {
+    background-color: rgba(231, 67, 157, 0.8);
+    color: white;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 5px;
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+  
+  .filterDiv {
+    float: left;
+    color: #ffffff;
+    width: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  .btn{
+    color: white;
+    background-color: rgba(231, 67, 157, 0.5);
+    font-size: 17px;
+    font-family: monospace;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    outline: none; 
+    cursor: pointer;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: rgba(231, 67, 157, 0.8);
+}
+  
+  /* Add a darker background to the active button */
+  .btn.active {
+    background-color: rgba(231, 67, 157, 1);
+    color: white;
+  }

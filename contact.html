@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Perfumes</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Perfumes</h1>
+    </div>
+    <div class="navup" id="navup">
+        <a href="./index.html">Home</a>
+        <a href="./photos.html">Photos</a>
+        <a class="active" href="./contact.html">Contact</a>
+    </div>
+    <div class="content">
+        <h2>Something to say...?</h2>
+        <p id="contacttext">If you wish to leave a comment or contact me, please use the following contact form.</p>
+        <form>
+        <label for="fname">Name:</label><br>
+        <input type="text" id="fname" name="fname" class = "form"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" class = "form"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea rows="20" cols="60" id="message" name="message" class = "form"></textarea><br><br>
+        <input type="submit" title="This form is under construction and will not send messages yet." id="submit" value="Send" onclick="alert('This page is still under construction and is static at the moment.Therefore this form will not send your message.')">
+        <input type="reset" title="Empty all fields" id="reset" value="Cancel">
+        </form>
+    </div>
+
+    <footer>
+        <p>Made by S. Kivelä</p>
+        <div class="footer">
+            <a href="./index.html">Home</a>
+            <a href="./photos.html">Photos</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+    </footer>
+</body>
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navup");
+var sticky = navup.offsetTop;
+
+function myFunction() {
+   if (window.pageYOffset >= sticky) {
+       navup.classList.add("sticky")
+   } else {
+       navup.classList.remove("sticky");
+   }
+}
+</script>
+
+</html>
