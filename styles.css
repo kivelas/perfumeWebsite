@@ -91,6 +91,7 @@ h3{
   #welcomephoto{
     border-radius: 100%;
     width: 200px;
+    padding: 60px 0;
   }
   
   .welcomephotocontainer{
@@ -106,7 +107,7 @@ h3{
     width: 90%;
     overflow: hidden;
     display: flex;
-    padding: 50px;
+    padding: 50px 50px 10px 50px;
     border-bottom: 2px dotted rgba(174, 16, 189, 0.5);
   }
 
