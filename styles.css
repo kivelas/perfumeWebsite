@@ -130,29 +130,33 @@ h3{
       margin: auto;
   }
 
-  div.phototext{
+  .phototext{
     padding: 20px;
     font-size: 16px;
   }
+  
+  .container {
+    overflow: hidden;
+  }
 
-  div.gallery{
+  .gallery{
     margin: 5px;
     float: left;
     width: 180px;
 }
 
-div.gallery img{
+.gallery img{
     padding: 5px;
     width: 100%;
     height: auto;
     
 }
 
-div.gallery img:hover{
+.gallery img:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div.desc{
+.desc{
     padding: 15px;
     padding-top: 0px;
     text-align: center;
@@ -233,10 +237,6 @@ a:hover{
     top: 0;
     width: 100%;
     margin: 5px;
-  }
-  
-  .container {
-    overflow: hidden;
   }
   
   .filterDiv {
